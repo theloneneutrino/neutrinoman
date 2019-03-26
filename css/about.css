@@ -1,0 +1,64 @@
+/*This stylesheet styles the three column table on the about page.*/
+
+.nav-bar {
+    z-index: 1;
+}
+
+.three-col {
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    top: 70px;  /* position the top  edge of the element at 70 pixels */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    
+    transform: translateX(-50%);
+}
+
+.column {
+    border: 3px dashed black;
+    height: auto;
+    width: 30%;
+    text-align: justify;
+    overflow-y: auto;
+    padding: 15px;
+    margin: 5px;
+    position: absolute;
+}
+
+.c1 {
+    left: 0;
+}
+
+.c2 {
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    
+    transform: translateX(-50%);
+}
+
+.c3 {
+    height: 80px;
+    right: 0;
+}
+
+.audio {
+    position: absolute;
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.video {
+    position: absolute;
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.video-p {
+    margin-top: 10px;
+    z-index: 1;
+    position: absolute;
+    top: 150px;
+}
